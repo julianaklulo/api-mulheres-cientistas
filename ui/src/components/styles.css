@@ -1,0 +1,22 @@
+.card-list-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .card-hover:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f7f7f7;
+  }
+
+  header {
+    background-color: #007bff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .header-title {
+    font-size: 36px;
+    color: #000000;
+    font-weight: bold;
+  }

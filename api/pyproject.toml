@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mulheres-cientistas-api"
+version = "0.1.0"
+description = ""
+authors = ["Juliana Karoline <julianaklulo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mulheres_cientistas_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.103.0"
+sqlalchemy = "^2.0.20"
+uvicorn = "^0.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
